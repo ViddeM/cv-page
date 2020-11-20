@@ -1,0 +1,144 @@
+{
+  "cv": {
+    "contactData": {
+      "firstName": "Vidar",
+      "lastName": "Magnusson",
+      "email": "contact@vidarmagnusson.com",
+      "github": {
+        "short": "ViddeM",
+        "full": "https://github.com/ViddeM"
+      },
+      "linkedIn": {
+        "short": "vidar-magnusson-693581151",
+        "full": "https://linkedin.com/in/vidar-magnusson-693581151"
+      }
+    },
+    "education": [
+      {
+        "start": "Aug 2020",
+        "end": "Present",
+        "title": "M.Sc in in Computer Science and Engineering – Computer Systems and Networks",
+        "subTitle": "With a focus on security and distributed systems",
+        "university": "Chalmers University of Technology",
+        "location": "Gothenburg Sweden",
+        "url": "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx",
+        "urlName": "Link to program"
+      },
+      {
+        "start": "Aug 2017",
+        "end": "Jun 2020",
+        "title": "B.Sc in Software Engineering",
+        "subTitle": "",
+        "university": "Chalmers University of Technology",
+        "location": "Gothenburg Sweden",
+        "url": "https://www.chalmers.se/sv/utbildning/program-pa-grundniva/Sidor/Informationsteknik.aspx",
+        "urlName": "Link to program (only available in swedish)"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Backend developer intern",
+        "company": "Opera Software",
+        "start": "June 2020",
+        "end": "Aug 2020",
+        "location": "Gothenburg, Sweden",
+        "url": "https://www.opera.com/about",
+        "tasks": [
+          "Backend java development working with a fin-tech product.",
+          "Worked as a part of the backend team which was great experience."
+        ]
+      },
+      {
+        "title": "Test engineer intern",
+        "company": "Phoniro | Assa Abloy",
+        "start": "June 2019",
+        "end": "Aug 2019",
+        "location": "Halmstad,a Sweden",
+        "url": "https://www.phoniro.com/",
+        "tasks": [
+          "Automated web testing in python using selenium.",
+          "Manual testing of different hardware and software, purpose built for use within elder care.",
+          "Manual Software testing of mobile applications."
+        ]
+      },
+      {
+        "title": "Teaching assistant",
+        "company": "Chalmers University of Technology",
+        "start": "Aug 2018",
+        "end": "June 2019",
+        "location": "Gothenburg, Sweden",
+        "url": "https://www.chalmers.se/en/Pages/default.aspx",
+        "tasks": [
+          "Assisted students in a introductory python course",
+          "After the course I worked with updating and refreshing the course contents for future years"
+        ]
+      },
+      {
+        "title": "Nursing assistant, elder care",
+        "company": "Halmstad municipality",
+        "start": "Jun 2017",
+        "end": "Aug 2017",
+        "location": "Halmstad, Sweden",
+        "url": "https://www.halmstad.se/en-US/omsorgstod/aldre.254.html",
+        "tasks": [
+          "Widely varied duties ranging from medicinal and other nurse duties to social presence and cleaning",
+          "Included a one-week nursing education which was concluded with a medicinal exam"
+        ]
+      }
+    ],
+    "skills": {
+      "general": [
+        "Initiator",
+        "High stress tolerance",
+        "Eager to learn"
+      ],
+      "programmingLanguages": [
+        "Java",
+        "Pytohn",
+        "C#",
+        "Javascript",
+        "Go",
+        "Haskell",
+        "Erlang"
+      ],
+      "languages": [
+        "Swedish",
+        "English"
+      ]
+    },
+    "studentUnion": {
+      "title": "Student Union",
+      "description": "Different volunteer commitments I have had within Software Engineering division of the Chalmers Student Union",
+      "url": "https://chalmers.it/en",
+      "url_description": "Link to software engineering division website",
+      "positions": [
+        {
+          "title": "Secretary of the board",
+          "start": "Jul 2019",
+          "end": "Jul 2019",
+          "description": "As a member of the division board I had a wide range of responsibilities including representing the division members towards the university as well as the student union council and taking care of the division's internal affairs.",
+          "location": "Gothenburg, Sweden",
+          "url": "",
+          "url_description": ""
+        },
+        {
+          "title": "Lay data protection officer",
+          "start": "Oct 2018",
+          "end": "Oct 2020",
+          "description": "As a data protection officer of the IT division I was responsible for being sufficiently knowledgeable in GDPR and related laws to examine and council the division in matters regarding personal data management.",
+          "location": "Gothenburg, Sweden",
+          "url": "",
+          "url_description": ""
+        },
+        {
+          "title": "Deputy chairman of digIT",
+          "start": "Apr 2018",
+          "end": "Apr 2019",
+          "description": "digIT is a group responsible for developing and maintaining the IT divisions digital systems and services as well as the hardware for these systems.",
+          "url": "http://github.com/cthit",
+          "url_description": " Github organization for digIT"
+        }
+      ]
+    }
+  }
+}
