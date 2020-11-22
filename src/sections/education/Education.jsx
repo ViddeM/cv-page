@@ -1,9 +1,16 @@
 import React from "react";
-import {TitleText} from "../../common/styles/Common.styles";
+import {CenteredTitleText, TitleText} from "../../common/styles/Common.styles";
 import data from "../../data/cv.json";
-import {EducationContainer} from "./Education.styles";
-import Card from "@material-ui/core/Card";
+import {
+    DateText,
+    EducationCard,
+    EducationContainer,
+    EducationSubTitle,
+    EducationTextIconContainer, InformationContainer
+} from "./Education.styles";
 import {Link, Typography} from "@material-ui/core";
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import ScheduleIcon from '@material-ui/icons/Schedule';
 
 const Education = () => (
     <EducationContainer>
@@ -12,40 +19,42 @@ const Education = () => (
         </TitleText>
         {
             data.cv.education.map(education => (
-                <Card>
-                    <Typography>
+                <EducationCard>
+                    <CenteredTitleText>
                         {education.title}
-                    </Typography>
-                    <Typography>
-                        {education.start + " - " + education.end}
-                    </Typography>
-                    { education.subTitle && (
-                        <Typography>
+                    </CenteredTitleText>
+                    {education.subTitle && (
+                        <EducationSubTitle align="center">
                             {education.subTitle}
-                        </Typography>
-                        )
-                    }
-                    <Typography>
-                        {"at " + education.university + ", " + education.location}
-                    </Typography>
-                    <Link href={education.url}>
+                        </EducationSubTitle>
+                    )}
+
+                    <InformationContainer>
+                        <EducationTextIconContainer>
+                            <ScheduleIcon />
+                            <DateText align="center">
+                                {education.start + " - " + education.end}
+                            </DateText>
+                        </EducationTextIconContainer>
+                        <EducationTextIconContainer>
+                            <LocationOnIcon/>
+                            <Link href={education.universityUrl}>
+                                <Typography>
+                                    {education.university + ", " + education.location}
+                                </Typography>
+                            </Link>
+                        </EducationTextIconContainer>
+                    </InformationContainer>
+
+                    <Link href={education.programUrl}>
                         <Typography>
                             {education.urlName}
                         </Typography>
                     </Link>
-                </Card>
+                </EducationCard>
             ))
         }
     </EducationContainer>
 )
 
 export default Education;
-
-
-// "start": "Aug 2020",
-// "end": "Present",
-// "subTitle": "With a focus on security and distributed systems",
-// "university": "Chalmers University of Technology",
-// "location": "Gothenburg Sweden",
-// "url": "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx",
-// "url_name": "Link to program"

@@ -17,11 +17,12 @@
       {
         "start": "Aug 2020",
         "end": "Present",
-        "title": "M.Sc in in Computer Science and Engineering – Computer Systems and Networks",
+        "title": "M.Sc in Computer Systems and Networks",
         "subTitle": "With a focus on security and distributed systems",
         "university": "Chalmers University of Technology",
         "location": "Gothenburg Sweden",
-        "url": "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx",
+        "universityUrl": "https://www.chalmers.se/en/Pages/default.aspx",
+        "programUrl": "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx",
         "urlName": "Link to program"
       },
       {
@@ -31,7 +32,8 @@
         "subTitle": "",
         "university": "Chalmers University of Technology",
         "location": "Gothenburg Sweden",
-        "url": "https://www.chalmers.se/sv/utbildning/program-pa-grundniva/Sidor/Informationsteknik.aspx",
+        "universityUrl": "https://www.chalmers.se/en/Pages/default.aspx",
+        "programUrl": "https://www.chalmers.se/sv/utbildning/program-pa-grundniva/Sidor/Informationsteknik.aspx",
         "urlName": "Link to program (only available in swedish)"
       }
     ],

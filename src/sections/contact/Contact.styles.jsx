@@ -1,9 +1,9 @@
 import styled from "styled-components"
-import Card from "@material-ui/core/Card";
 import IconButton from "@material-ui/core/IconButton";
 import {Typography} from "@material-ui/core";
+import {HoveringCard} from "../../common/styles/Common.styles";
 
-export const ContactCard = styled(Card)`
+export const ContactCard = styled(HoveringCard)`
   display: flex;
   flex-direction: column;
   align-items: center;
