@@ -7,8 +7,9 @@ export const ContactCard = styled(HoveringCard)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 10px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 `;
 
 export const ContactEntry = styled.div`
@@ -36,4 +37,13 @@ export const ContactContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+`;
+
+export const ContactCardsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const Left = styled.div`
+  align-self: flex-start;
 `;

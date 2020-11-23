@@ -20,6 +20,7 @@
         "title": "M.Sc in Computer Systems and Networks",
         "subTitle": "With a focus on security and distributed systems",
         "university": "Chalmers University of Technology",
+        "universityLogo": "chalmers_logo.svg",
         "location": "Gothenburg Sweden",
         "universityUrl": "https://www.chalmers.se/en/Pages/default.aspx",
         "programUrl": "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx",
@@ -31,6 +32,7 @@
         "title": "B.Sc in Software Engineering",
         "subTitle": "",
         "university": "Chalmers University of Technology",
+        "universityLogo": "chalmers_logo.svg",
         "location": "Gothenburg Sweden",
         "universityUrl": "https://www.chalmers.se/en/Pages/default.aspx",
         "programUrl": "https://www.chalmers.se/sv/utbildning/program-pa-grundniva/Sidor/Informationsteknik.aspx",
@@ -41,6 +43,7 @@
       {
         "title": "Backend developer intern",
         "company": "Opera Software",
+        "companyLogoName": "opera_logo.svg",
         "start": "June 2020",
         "end": "Aug 2020",
         "location": "Gothenburg, Sweden",
@@ -53,9 +56,10 @@
       {
         "title": "Test engineer intern",
         "company": "Phoniro | Assa Abloy",
+        "companyLogoName": "phoniro_logo.svg",
         "start": "June 2019",
         "end": "Aug 2019",
-        "location": "Halmstad,a Sweden",
+        "location": "Halmstad, Sweden",
         "url": "https://www.phoniro.com/",
         "tasks": [
           "Automated web testing in python using selenium.",
@@ -66,25 +70,27 @@
       {
         "title": "Teaching assistant",
         "company": "Chalmers University of Technology",
+        "companyLogoName": "chalmers_logo.svg",
         "start": "Aug 2018",
         "end": "June 2019",
         "location": "Gothenburg, Sweden",
         "url": "https://www.chalmers.se/en/Pages/default.aspx",
         "tasks": [
-          "Assisted students in a introductory python course",
-          "After the course I worked with updating and refreshing the course contents for future years"
+          "Assisted students in a introductory python course.",
+          "After the course I worked with updating and refreshing the course contents for future years."
         ]
       },
       {
         "title": "Nursing assistant, elder care",
         "company": "Halmstad municipality",
+        "companyLogoName": "halmstad_logo.png",
         "start": "Jun 2017",
         "end": "Aug 2017",
         "location": "Halmstad, Sweden",
         "url": "https://www.halmstad.se/en-US/omsorgstod/aldre.254.html",
         "tasks": [
-          "Widely varied duties ranging from medicinal and other nurse duties to social presence and cleaning",
-          "Included a one-week nursing education which was concluded with a medicinal exam"
+          "Widely varied duties ranging from medicinal and other nurse duties to social presence and cleaning.",
+          "Included a one-week nursing education which was concluded with a medicinal exam."
         ]
       }
     ],
@@ -96,7 +102,7 @@
       ],
       "programmingLanguages": [
         "Java",
-        "Pytohn",
+        "Python",
         "C#",
         "Javascript",
         "Go",
@@ -110,14 +116,15 @@
     },
     "studentUnion": {
       "title": "Student Union",
-      "description": "Different volunteer commitments I have had within Software Engineering division of the Chalmers Student Union",
+      "description": "On this page one finds different volunteer commitments I have had within Software Engineering division of the Chalmers Student Union.",
       "url": "https://chalmers.it/en",
       "url_description": "Link to software engineering division website",
+      "union_logo_url": "it_logo.svg",
       "positions": [
         {
           "title": "Secretary of the board",
           "start": "Jul 2019",
-          "end": "Jul 2019",
+          "end": "Jul 2020",
           "description": "As a member of the division board I had a wide range of responsibilities including representing the division members towards the university as well as the student union council and taking care of the division's internal affairs.",
           "location": "Gothenburg, Sweden",
           "url": "",

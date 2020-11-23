@@ -19,6 +19,8 @@ import {
 } from "./CV_modes";
 import Contact from "../sections/contact/Contact";
 import Education from "../sections/education/Education";
+import Experience from "../sections/experience/Experience";
+import StudentUnion from "../sections/studentUnion/StudentUnion";
 
 const theme = createMuiTheme({
      palette: {
@@ -110,17 +112,9 @@ function getModeSection(mode) {
         case CV_MODE_EDUCATION:
             return <Education/>
         case CV_MODE_EXPERIENCE:
-            return (
-            <Typography>
-                Not implemented ll :(
-            </Typography>
-            )
+            return <Experience />
         case CV_MODE_STUDENT_UNION:
-            return (
-            <Typography>
-                Not implemented lll :(
-            </Typography>
-            )
+            return <StudentUnion />
         default:
             console.error("Invalid mode '" + mode + "'!")
             return <Typography>

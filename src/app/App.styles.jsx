@@ -3,8 +3,9 @@ import Button from "@material-ui/core/Button";
 import {TitleText} from "../common/styles/Common.styles";
 
 export const Base = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
