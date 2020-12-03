@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Button, Typography} from "@material-ui/core";
 import {
     Base,
-    NameContainer,
+    HeaderContainer,
     NameText,
     NameUnderline, SectionContainer, SelectButton,
     SelectContainer
@@ -54,46 +54,46 @@ function App() {
     <StylesProvider injectFirst>
         <ThemeProvider theme={theme}>
             <Base style={{backgroundColor: theme.palette.primary.main}}>
-                <NameContainer>
+                <HeaderContainer>
                     <NameText>
                         {data.cv.contactData.firstName + " " + data.cv.contactData.lastName}
                     </NameText>
                     <NameUnderline/>
-                </NameContainer>
-                <SelectContainer>
-                    <SelectButton
-                        variant="outlined"
-                        size="Large"
-                        onClick={() => setMode(CV_MODE_CONTACT)}
-                        disabled={mode === CV_MODE_CONTACT}
-                    >
-                        About me & Contact
-                    </SelectButton>
-                    <SelectButton
-                        variant="outlined"
-                        size="Large"
-                        onClick={() => setMode(CV_MODE_EDUCATION)}
-                        disabled={mode === CV_MODE_EDUCATION}
-                    >
-                        Education
-                    </SelectButton>
-                    <SelectButton
-                        variant="outlined"
-                        size="Large"
-                        onClick={() => setMode(CV_MODE_EXPERIENCE)}
-                        disabled={mode === CV_MODE_EXPERIENCE}
-                    >
-                        Experience
-                    </SelectButton>
-                    <SelectButton
-                        variant="outlined"
-                        size="Large"
-                        onClick={() => setMode(CV_MODE_STUDENT_UNION)}
-                        disabled={mode === CV_MODE_STUDENT_UNION}
-                    >
-                        Student Union
-                    </SelectButton>
-                </SelectContainer>
+                    <SelectContainer>
+                        <SelectButton
+                            variant="outlined"
+                            size="Large"
+                            onClick={() => setMode(CV_MODE_CONTACT)}
+                            disabled={mode === CV_MODE_CONTACT}
+                        >
+                            About me & Contact
+                        </SelectButton>
+                        <SelectButton
+                            variant="outlined"
+                            size="Large"
+                            onClick={() => setMode(CV_MODE_EDUCATION)}
+                            disabled={mode === CV_MODE_EDUCATION}
+                        >
+                            Education
+                        </SelectButton>
+                        <SelectButton
+                            variant="outlined"
+                            size="Large"
+                            onClick={() => setMode(CV_MODE_EXPERIENCE)}
+                            disabled={mode === CV_MODE_EXPERIENCE}
+                        >
+                            Experience
+                        </SelectButton>
+                        <SelectButton
+                            variant="outlined"
+                            size="Large"
+                            onClick={() => setMode(CV_MODE_STUDENT_UNION)}
+                            disabled={mode === CV_MODE_STUDENT_UNION}
+                        >
+                            Student Union
+                        </SelectButton>
+                    </SelectContainer>
+                </HeaderContainer>
                 <SectionContainer>
                 {
                     getModeSection(mode)

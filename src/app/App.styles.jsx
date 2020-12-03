@@ -11,12 +11,19 @@ export const Base = styled.div`
   align-items: center;
 `;
 
-export const NameContainer = styled.div`
-  
+export const HeaderContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const NameText = styled(TitleText)`
   font-size: 90px;
+  @media (max-width: 800px) {
+    font-size: 36px;  
+    margin-bottom: 6px;
+  }
 `
 
 export const NameUnderline = styled.div`
@@ -29,10 +36,19 @@ export const NameUnderline = styled.div`
 
 export const SelectContainer = styled.div`
   margin-top: 50px;
+  @media (max-width: 800px) {
+    margin-top: 10px;
+  }
+  display: grid;
+  width: 90%;  
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  row-gap: 10px;
 `;
 
 export const SelectButton = styled(Button)`
   margin: 0 10px;
+  width: 250px;
 `
 
 export const SectionContainer = styled.div`

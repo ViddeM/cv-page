@@ -11,6 +11,9 @@ export const TitleText = styled.h1`
   //text-decoration: underline;
   //text-shadow: 3px 2px 4px rgba(255,255,255,0.1);
   text-shadow: 3px 2px 3px rgba(255,255,255,.1);
+  @media (max-width: 800px) {
+    font-size: 32px;
+  }
 `;
 
 export const CenteredTitleText = styled(TitleText)`
