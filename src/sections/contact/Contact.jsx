@@ -14,7 +14,6 @@ import {
     TitleText,
     WideLine
 } from "../../common/styles/Common.styles";
-import {CvEventCard} from "../education/Education.styles";
 import {Typography} from "@material-ui/core";
 import {DutiesList} from "../experience/Experience.styles";
 import Box from "@material-ui/core/Box";
