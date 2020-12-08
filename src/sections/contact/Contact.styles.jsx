@@ -10,6 +10,7 @@ export const ContactCard = styled(HoveringCard)`
   padding: 20px;
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
 `;
 
 export const ContactEntry = styled.div`
@@ -42,6 +43,9 @@ export const ContactContainer = styled.div`
 export const ContactCardsContainer = styled.div`
   display: flex;
   flex-direction: row;
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const Left = styled.div`

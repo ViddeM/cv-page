@@ -8,9 +8,10 @@ export const TitleText = styled.h1`
   font-family: 'Bree Serif', serif;
   font-size: 40px;
   margin: 0 0 20px;
-  //text-decoration: underline;
-  //text-shadow: 3px 2px 4px rgba(255,255,255,0.1);
   text-shadow: 3px 2px 3px rgba(255,255,255,.1);
+  @media (max-width: 800px) {
+    font-size: 26px;
+  }
 `;
 
 export const CenteredTitleText = styled(TitleText)`
@@ -50,12 +51,20 @@ export const CompanyIcon = styled.div`
   max-height: 50px;
   background-size: contain;
   background-repeat: no-repeat;
+  @media (max-width: 800px) {
+    margin-top: 10px;
+  }
 `;
 
 export const InformationContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const CvEventCard = styled(HoveringCard)`
@@ -63,6 +72,15 @@ export const CvEventCard = styled(HoveringCard)`
   margin-bottom: 20px;
   width: 760px;
   max-width: 95%;
+  @media (max-width: 800px) {
+    width: 95vw;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-shadow: none;
+  }
 `;
 
 export const DateText = styled(Typography)`

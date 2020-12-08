@@ -12,11 +12,13 @@ export const Base = styled.div`
 `;
 
 export const NameContainer = styled.div`
-  
 `;
 
 export const NameText = styled(TitleText)`
-  font-size: 90px;
+  font-size: 10vw;
+  @media (min-width: 800px) {
+    font-size: 90px;
+  }
 `
 
 export const NameUnderline = styled.div`
@@ -29,10 +31,17 @@ export const NameUnderline = styled.div`
 
 export const SelectContainer = styled.div`
   margin-top: 50px;
+  @media (max-width: 1100px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const SelectButton = styled(Button)`
-  margin: 0 10px;
+  margin: 0px 10px 10px 10px;
+  width: 250px
 `
 
 export const SectionContainer = styled.div`
