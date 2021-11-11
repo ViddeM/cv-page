@@ -44,13 +44,26 @@
         "title": "Backend developer intern",
         "company": "Opera Software",
         "companyLogoName": "opera_logo.svg",
+        "start": "June 2021",
+        "end": "Sep 2021",
+        "location": "Gothenburg, Sweden",
+        "url": "https://www.opera.com/about",
+        "tasks": [
+          "Backend Java developer working with a gaming website collaborating with multiple teams at Opera and Yoyo games.",
+          "Working in a small backend team deveoping the product from a relatively early stage was a new experience for me in a professional setting."
+        ]
+      },
+      {
+        "title": "Backend developer intern",
+        "company": "Opera Software",
+        "companyLogoName": "opera_logo.svg",
         "start": "June 2020",
         "end": "Aug 2020",
         "location": "Gothenburg, Sweden",
         "url": "https://www.opera.com/about",
         "tasks": [
-          "Backend java development working with a fin-tech product.",
-          "Worked as a part of the backend team which was great experience."
+          "Backend Java development working with a fin-tech product.",
+          "Worked as a part of the backend team which was great learning experience."
         ]
       },
       {
@@ -102,10 +115,11 @@
       ],
       "programmingLanguages": [
         "Java",
-        "Python",
-        "C#",
-        "Javascript",
         "Go",
+        "Python",
+        "Rust",
+        "Javascript",
+        "C#",
         "Haskell",
         "Erlang"
       ],
@@ -121,6 +135,15 @@
       "url_description": "Link to software engineering division website",
       "union_logo_url": "it_logo.svg",
       "positions": [
+        {
+          "title": "Lay auditor for the IT division",
+          "start": "Oct 2021",
+          "end": "Oct 2022",
+          "description": "As a lay auditor for the IT division I, together with my collegues, look at the bookkeeping of the division and present a report during the division meeting regarding the state of the economy of the different committes of the division.",
+          "location": "Gothenburg, Sweden",
+          "url": "",
+          "url_description": ""
+        },
         {
           "title": "Secretary of the board",
           "start": "Jul 2019",
