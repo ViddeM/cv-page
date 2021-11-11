@@ -7,10 +7,20 @@ export const ContactCard = styled(HoveringCard)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  @media (max-width: 800px) {
+    border-radius: 0;
+    //box-shadow: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+  }
+`;
+
+export const ContactCardInner = styled.div`
+  padding: 10px;
 `;
 
 export const ContactEntry = styled.div`
